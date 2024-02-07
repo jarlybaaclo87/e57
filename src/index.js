@@ -1,16 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
-import Section1 from "./components/Section_1";
-import Message from "./components/Message";
-import Button from "./components/Button";
-const root = ReactDOM.createRoot(document.getElementById("root"));
+// import { LoremIpsum } from 'react-lorem-ipsum';
+// import Breadcrums from './components/Breadcrums';
+
+const root  = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
     <div>
+        {/* put in here the components*/}
         <App/>
-        <Section1/>
-        <Button/>
-        <Message/>
     </div>
 );
