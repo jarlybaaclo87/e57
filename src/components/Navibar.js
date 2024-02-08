@@ -1,12 +1,9 @@
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
+import {Container, Nav, Navbar} from 'react-bootstrap';
 
 const Navibar = ()=> {
   return (
     <>
-    <header className='rounded'>
-      <Navbar className="fluid" bg="primary" data-bs-theme="dark" style={{ height: '100px'}}>
+      <Navbar bg="dark" variant="dark">
         <Container>
           <Navbar.Brand href="#home">KodeGo Bootcamp</Navbar.Brand>
           <Nav className="me-auto">
@@ -16,9 +13,7 @@ const Navibar = ()=> {
           </Nav>
         </Container>
       </Navbar>
-      </header>
     </>
   );
 }
-
 export default Navibar;
