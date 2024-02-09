@@ -1,7 +1,7 @@
 import {useState} from 'react'
 
 const Reacthooks = () => {
-    //scripts
+    //scripts       
     const [counter,setCounter] = useState(0);
     //event handlers
     const countUp = ()=>{

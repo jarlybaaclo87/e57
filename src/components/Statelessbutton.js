@@ -1,6 +1,6 @@
 import { Button } from 'react-bootstrap';
 import React from 'react'
-
+     
 const Statelessbutton = ({color, label, display, margin}) => {
   return (
     <Button variant={color} style={{
